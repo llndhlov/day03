@@ -6,17 +6,15 @@
 /*   By: llndhlov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 11:38:52 by llndhlov          #+#    #+#             */
-/*   Updated: 2020/07/10 11:44:51 by llndhlov         ###   ########.fr       */
+/*   Updated: 2020/07/12 18:01:53 by llndhlov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_swap(int *a, int *b)
 {
-	int temp;
+	int		temp;
 
 	temp = *a;
 	*a = *b;
 	*b = temp;
-
 }
-

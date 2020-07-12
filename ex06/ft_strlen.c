@@ -1,16 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: llndhlov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/10 10:50:48 by llndhlov          #+#    #+#             */
-/*   Updated: 2020/07/12 17:59:45 by llndhlov         ###   ########.fr       */
+/*   Created: 2020/07/12 17:14:22 by llndhlov          #+#    #+#             */
+/*   Updated: 2020/07/12 17:59:10 by llndhlov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_ultimate_ft(int *********nbr);
+int		ft_strlen(char *str)
 {
-	*********nbr = 42;
+	int		counter;
+
+	counter = 0;
+	while (str[counter])
+	{
+		counter++;
+		return(counter);
+	}
 }
